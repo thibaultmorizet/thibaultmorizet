@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="send design" />
+    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="send design">
+      <change afterPath="$PROJECT_DIR$/app/cv/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/CV/CV.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io",
+    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -49,11 +54,20 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/prettier",
     "settings.editor.selected.configurable": "actions.on.save",
     "ts.external.directory.path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/CV" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="thibaultmorizet" />
