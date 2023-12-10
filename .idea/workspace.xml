@@ -40,15 +40,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.eslint": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/eslint",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,6 +79,7 @@
       <updated>1698789720263</updated>
       <workItem from="1698789918424" duration="2367000" />
       <workItem from="1698792387192" duration="441000" />
+      <workItem from="1702225837786" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1698790820456</created>
