@@ -7,17 +7,17 @@ export default function Links() {
     const downloadCV = async () => {
         const CV =
             "https://github.com/thibaultmorizet/thibaultmorizet.github.io/blob/main/public/CV/CV.pdf";
-
-        // use fetch to get a response
-        const response = await fetch(CV);
-
-        // return a new response but use 'content-disposition' to suggest saving the file to the user's computer
-        return new Response(response.body, {
-            headers: {
-                ...response.headers, // copy the previous headers
-                "content-disposition": `attachment; filename="CV.pdf"`,
-            },
-        });
+        await fetch(CV, {method: "get", mode: "no-cors", referrerPolicy: "no-referrer"})
+            .then((res) => res.blob())
+            .then((res) => {
+                const aElement = document.createElement("a");
+                aElement.setAttribute("download", "CV.pdf");
+                const href = URL.createObjectURL(res);
+                aElement.href = href;
+                aElement.setAttribute("target", "_blank");
+                aElement.click();
+                URL.revokeObjectURL(href);
+            });
     };
 
     return (
