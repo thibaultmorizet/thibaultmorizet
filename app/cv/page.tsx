@@ -1,6 +1,6 @@
 import Image from "next/image";
 import avatar from "public/avatar.png";
-import CV from "public/CV/CV.png";
+import CV from "public/CV/CV.jpeg";
 
 export default function Links() {
     return (
@@ -26,8 +26,8 @@ export default function Links() {
                 </div>
                 <Image
                     src={CV}
-                    width={300}
-                    height={500}
+                    width={600}
+                    height={1000}
                     alt="CV"
                     className="mx-auto animate-in bg-secondary"
                     style={{"--index": 1} as React.CSSProperties}

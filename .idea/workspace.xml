@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="send design">
-      <change afterPath="$PROJECT_DIR$/app/cv/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/CV/CV.png" afterDir="false" />
+    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="add CV page">
+      <change afterPath="$PROJECT_DIR$/public/CV/CV.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cv/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/cv/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/CV/CV.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/app",
+    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/public/CV",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/CV" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702213020056</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add CV page">
+      <created>1702230186075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702230186075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +160,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="send gitignore" />
     <MESSAGE value="send design" />
-    <option name="LAST_COMMIT_MESSAGE" value="send design" />
+    <MESSAGE value="add CV page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CV page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
