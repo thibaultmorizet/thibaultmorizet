@@ -5,7 +5,7 @@ import CV from "public/CV/CV.jpeg";
 
 export default function Links() {
     const saveCV = async () => {
-        const res = await fetch("/CV/CV.pdf", {
+        const res = await fetch("/CV/CV_THIBAULT_MORIZET.pdf", {
             method: "get",
             mode: "no-cors",
             referrerPolicy: "no-referrer"
