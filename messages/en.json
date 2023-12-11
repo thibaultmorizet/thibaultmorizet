@@ -1,0 +1,39 @@
+{
+  "general": {
+    "emailMe": "email me",
+    "contactMe": "email me",
+    "moreConnect": "More ways to connect",
+    "about": "About",
+    "connect": "Connect",
+    "work": "Work"
+  },
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "CV": "CV"
+  },
+  "404": {
+    "pageNotFound": "404 - Page not found",
+    "messageStart": "Uh oh! This page does not exist",
+    "messageEnd": ", maybe you clicked an old link or misspelled. Please try again...",
+    "returnHome": "Return home"
+  },
+  "home": {
+    "description": "I write code.",
+    "presentation": "Hi, I'm Thibault Morizet, a developer who loves building cool things with code.",
+    "about": {
+      "first": "Hello world, I'm Thibault Morizet !",
+      "second": "I have a passion for web design and back-end development, so am always looking for ways to incorporate it into my life.",
+      "third": "When I'm not at my desk I am probably lifting weights, boxing, or reading :)"
+    },
+    "connect": {
+      "haveAQuestion": "Have a question or just want to chat ? Feel free to",
+      "tryFinding": "Try finding me anywhere else at @thibaultmorizet"
+    },
+    "work": {
+      "title": "years of professional development experience.",
+      "descriptionStart": "I started my career at a small companies. Then I went to a bigger company. Now I'm a React Native Developer currently working at",
+      "descriptionEnd": ", one of the largest gaming company in France."
+    }
+  }
+}

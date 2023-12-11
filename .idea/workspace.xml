@@ -4,9 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="add CV pdf">
+    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="remove useless code">
+      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/components/Workplaces.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/links/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/projects/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/MdxWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cv/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/cv/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/prisma/hitsSlug/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/api/prisma/hitsSlug/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/prisma/hitsTotal/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/api/prisma/hitsTotal/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/apple-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Workplaces.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cv/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/cv/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/[slug]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/components/ui/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/Image.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/components/ui/MdxWrapper.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ConnectLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ConnectLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ThemeProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ThemeSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/Halo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ui/Halo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ui/Link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/NavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ui/NavLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -24,12 +63,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thibaultmorizet&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ef6347e0-cd56-44bf-9f17-578437c90891" />
+        <option name="url" value="https://github.com/thibaultmorizet/thibaultmorizet.github.io.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2XXySdK22osAuj9MxcTSm7aT3AR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,31 +104,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/app/pdf",
+    "last_opened_file_path": "/Users/tmorizet/Desktop/thibaultmorizet.github.io/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/eslint",
+    "node.js.selected.package.eslint": "/Users/tmorizet/Desktop/thibaultmorizet.github.io/node_modules/eslint",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/prettier",
     "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/tmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/messages" />
       <recent name="$PROJECT_DIR$/app/pdf" />
       <recent name="$PROJECT_DIR$/public/CV" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/CV" />
-      <recent name="$PROJECT_DIR$/pages/api" />
+      <recent name="$PROJECT_DIR$/src/app/[locale]" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/app/components" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,6 +162,8 @@
       <workItem from="1698789918424" duration="2367000" />
       <workItem from="1698792387192" duration="441000" />
       <workItem from="1702225837786" duration="42000" />
+      <workItem from="1702284714240" duration="4256000" />
+      <workItem from="1702301016769" duration="9846000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1698790820456</created>
@@ -155,7 +221,79 @@
       <option name="project" value="LOCAL" />
       <updated>1702232905757</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix CV download">
+      <option name="closed" value="true" />
+      <created>1702286046718</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702286046718</updated>
+    </task>
+    <task id="LOCAL-00010" summary="download CV on new tab">
+      <option name="closed" value="true" />
+      <created>1702286574750</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702286574750</updated>
+    </task>
+    <task id="LOCAL-00011" summary="display moonIcon or sunIcon in theme selector">
+      <option name="closed" value="true" />
+      <created>1702286669410</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702286669410</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add style on download cv button">
+      <option name="closed" value="true" />
+      <created>1702287261934</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702287261934</updated>
+    </task>
+    <task id="LOCAL-00013" summary="rename cv pdf">
+      <option name="closed" value="true" />
+      <created>1702287594635</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702287594635</updated>
+    </task>
+    <task id="LOCAL-00014" summary="download CV on new tab">
+      <option name="closed" value="true" />
+      <created>1702287756151</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702287756151</updated>
+    </task>
+    <task id="LOCAL-00015" summary="download CV on new tab">
+      <option name="closed" value="true" />
+      <created>1702288659739</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702288659739</updated>
+    </task>
+    <task id="LOCAL-00016" summary="download CV on new tab">
+      <option name="closed" value="true" />
+      <created>1702288804997</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702288804997</updated>
+    </task>
+    <task id="LOCAL-00017" summary="remove useless code">
+      <option name="closed" value="true" />
+      <created>1702288953566</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702288953566</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +317,13 @@
     <MESSAGE value="send design" />
     <MESSAGE value="add CV page" />
     <MESSAGE value="add CV pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CV pdf" />
+    <MESSAGE value="fix CV download" />
+    <MESSAGE value="display moonIcon or sunIcon in theme selector" />
+    <MESSAGE value="add style on download cv button" />
+    <MESSAGE value="rename cv pdf" />
+    <MESSAGE value="download CV on new tab" />
+    <MESSAGE value="remove useless code" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove useless code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

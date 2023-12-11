@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
-import avatar from "public/avatar.png";
-import CV from "public/CV/CV.jpeg";
+import avatar from "@/public/avatar.png";
+import CV from "@/public/CV/CV.jpeg";
 
 export default function Links() {
 

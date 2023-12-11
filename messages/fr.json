@@ -1,0 +1,39 @@
+{
+  "general": {
+    "emailMe": "contactez moi",
+    "contactMe": "me contacter",
+    "moreConnect": "Plus de façons de me contacter",
+    "about": "À propos",
+    "connect": "Me contacter",
+    "work": "Expériences"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "CV": "CV"
+  },
+  "404": {
+    "pageNotFound": "404 - Page non trouvée",
+    "messageStart": "Oh oh ! Cette page n'existe pas",
+    "messageEnd": ", peut-être avez-vous cliqué sur un ancien lien ou mal orthographié. Veuillez réessayer...",
+    "returnHome": "Retour à l'accueil"
+  },
+  "home": {
+    "description": "J'écris du code.",
+    "presentation": "Bonjour, Je suis Thibault Morizet, un développeur qui aime construire des choses sympas avec du code.",
+    "about": {
+      "first": "Hello world, Je suis Thibault Morizet !",
+      "second": "J'ai une passion pour la conception Web et le développement back-end, je cherche donc toujours des moyens de l'intégrer dans ma vie.",
+      "third": "Quand je ne suis pas à mon bureau, je suis probablement en train de soulever des poids, de faire de la boxe ou de lire :)"
+    },
+    "connect": {
+      "haveAQuestion": "Une question ou simplement envie de discuter ? Ne hésitez pas à",
+      "tryFinding": "Essayez de me trouver ailleurs avec @thibaultmorizet"
+    },
+    "work": {
+      "title": "années d'expérience en développement professionnel.",
+      "descriptionStart": "J'ai commencé ma carrière dans une petite entreprise. Ensuite, je suis allé dans une plus grande entreprise. Maintenant, je suis un développeur React Native et je travaille actuellement chez",
+      "descriptionEnd": ", l'une des plus grandes sociétés de jeux vidéos en France."
+    }
+  }
+}
