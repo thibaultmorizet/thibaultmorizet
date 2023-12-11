@@ -4,20 +4,18 @@ import avatar from "public/avatar.png";
 import CV from "public/CV/CV.jpeg";
 
 export default function Links() {
-    const downloadCV = async () => {
-        const CV =
-            "https://github.com/thibaultmorizet/thibaultmorizet.github.io/blob/main/public/CV/CV.pdf";
-        await fetch(CV, {method: "get", mode: "no-cors", referrerPolicy: "no-referrer"})
-            .then((res) => res.blob())
-            .then((res) => {
-                const aElement = document.createElement("a");
-                aElement.setAttribute("download", "CV.pdf");
-                const href = URL.createObjectURL(res);
-                aElement.href = href;
-                aElement.setAttribute("target", "_blank");
-                aElement.click();
-                URL.revokeObjectURL(href);
-            });
+    const saveCV = async () => {
+        const res = await fetch("/CV/CV.pdf", {
+            method: "get",
+            mode: "no-cors",
+            referrerPolicy: "no-referrer"
+        })
+        const blob = await res.blob()
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.download = 'CV_THIBAULT_MORIZET.pdf';
+        link.href = url;
+        link.click();
     };
 
     return (
@@ -41,7 +39,7 @@ export default function Links() {
                         </h1>
                     </div>
                 </div>
-                <button onClick={downloadCV}>Download CV</button>
+                <button onClick={saveCV}>Download CV</button>
 
                 <Image
                     src={CV}
