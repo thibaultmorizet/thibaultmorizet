@@ -6,10 +6,12 @@ import {useTheme} from "next-themes";
 
 import {CheckIcon, MoonIcon} from "@heroicons/react/20/solid";
 import {SunIcon} from "@heroicons/react/24/outline";
+import {useTranslations} from "next-intl";
 
 export default function ThemeSwitcher() {
     const [mounted, setMounted] = useState(false);
     const {theme, setTheme, resolvedTheme, themes} = useTheme();
+    const translate = useTranslations('themes');
 
     useEffect(() => {
         setMounted(true);
@@ -72,7 +74,7 @@ export default function ThemeSwitcher() {
                                     selected ? "font-medium" : "font-normal"
                                 }`}
                             >
-                              {theme == "system" ? "Automatic" : theme}
+                              {translate(theme)}
                             </span>
                                                         {selected ? (
                                                             <span

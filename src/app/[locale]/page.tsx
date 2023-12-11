@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Link} from "../../navigation";
+import {Link as NavigationLink} from "../../navigation";
 import {ArrowUpRightIcon} from "@heroicons/react/20/solid";
 import Avatar from "@/public/avatar.png";
 import Section from "@/src/app/[locale]/components/Section";
@@ -10,9 +10,11 @@ import glanumLogo from "@/public/work/glanum-logo.png";
 import peopleInLogo from "@/public/work/people-in-logo.png";
 import {useTranslations} from 'next-intl';
 import {firstLetterUppercase} from "@/lib/utils";
+import Link from "@/src/app/[locale]/components/ui/Link";
 
 export default function Home() {
     const generalTranslate = useTranslations('general');
+    const linksTranslate = useTranslations('links');
     const translate = useTranslations('home');
     return (
         <div className="flex flex-col gap-16 md:gap-24">
@@ -62,7 +64,7 @@ export default function Home() {
                                 </Link>
                             </li>
                             <li className="transition-opacity">
-                                <Link
+                                <NavigationLink
                                     href="/links"
                                     className="flex items-center gap-2 no-underline"
                                 >
@@ -70,7 +72,7 @@ export default function Home() {
                                     <span>
                                         {generalTranslate('moreConnect')}
                                     </span>
-                                </Link>
+                                </NavigationLink>
                             </li>
                         </ul>
                     </div>
@@ -108,7 +110,7 @@ export default function Home() {
                                         >
                                             <div className="flex items-center gap-3">
                                                 <span className="text-xl">{link.icon}</span>
-                                                {link.label}
+                                                {linksTranslate(link.label)}
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     viewBox="0 0 20 20"
@@ -152,21 +154,21 @@ export default function Home() {
 
 const workplaces = [
     {
-        title: "React Native Developer",
+        title: "ankama",
         company: "Ankama",
         time: "2023 -",
         imageSrc: ankamaLogo,
         link: "https://www.ankama.com",
     },
     {
-        title: "Web & applications programmer",
+        title: "glanum",
         company: "Glanum",
         time: "2023 - 2023",
         imageSrc: glanumLogo,
         link: "https://www.glanum.com",
     },
     {
-        title: "Web Developer",
+        title: "peopleIn",
         company: "People In",
         time: "2021 - 2022",
         imageSrc: peopleInLogo,

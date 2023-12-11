@@ -1,17 +1,19 @@
 import {Metadata} from "next";
 import Image from "next/image";
-import Link from "next/link";
+import {Link} from "@/src/navigation";
 import clsx from "clsx";
 import {allProjects} from "contentlayer/generated";
 import Halo from "@/src/app/[locale]/components/ui/Halo";
+import {useTranslations} from "next-intl";
 
 export const metadata: Metadata = {
     title: "Projects | Thibault Morizet",
     description: "Here are some of the projects I've worked on.",
 };
 
-export default function Blog() {
-    const projects = allProjects;
+export default function Projects() {
+    const translate = useTranslations('navigation');
+    const projectsTranslate = useTranslations('projects');
 
     return (
         <div className="mx-auto max-w-[700px]">
@@ -19,13 +21,13 @@ export default function Blog() {
                 <div className="flex flex-col gap-8">
                     <div>
                         <h1 className="animate-in text-3xl font-bold tracking-tight">
-                            Projects
+                            {translate('projects')}
                         </h1>
                         <p
                             className="animate-in text-secondary"
                             style={{"--index": 1} as React.CSSProperties}
                         >
-                            Here are some of the projects I&apos;ve worked on.
+                            {projectsTranslate('description')}
                         </p>
                     </div>
                 </div>
@@ -33,7 +35,7 @@ export default function Blog() {
                     className="animated-list flex animate-in flex-col"
                     style={{"--index": 3} as React.CSSProperties}
                 >
-                    {projects.map((project, i) => (
+                    {allProjects.map((project, i) => (
                         <li
                             key={project.slug}
                             className={clsx(
@@ -66,7 +68,7 @@ export default function Blog() {
                                 </div>
 
                                 <p className="line-clamp-3 text-tertiary">
-                                    {project.description}
+                                    {projectsTranslate(project.title + "." + project.description)}
                                 </p>
                             </div>
                         </li>

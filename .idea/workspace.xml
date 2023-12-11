@@ -5,49 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="remove useless code">
-      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/components/Workplaces.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/links/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/not-found.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/projects/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/MdxWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i18n.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navigation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/prisma/hitsSlug/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/api/prisma/hitsSlug/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/prisma/hitsTotal/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/api/prisma/hitsTotal/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/apple-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Workplaces.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cv/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/cv/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/links/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/projects/[slug]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/projects/components/ui/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/Image.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/projects/components/ui/MdxWrapper.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/projects/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ConnectLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ConnectLinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ThemeProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ThemeSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/Halo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ui/Halo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ui/Link.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/NavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ui/NavLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/project/L2I.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/project/L2I.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/ConnectLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ConnectLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ThemeSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Workplaces.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Workplaces.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/cv/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/cv/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/links/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/links/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/projects/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/Image.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +88,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/prettier",
     "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/tmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

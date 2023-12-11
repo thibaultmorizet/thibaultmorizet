@@ -5,11 +5,13 @@ My personal portfolio website designed to be simplistic, a dark mode toggle, an 
 ## Tech Stack
 
 backend:
+
 - [Next.js](nextjs.org) / TypeScript
-- [MDX](https://mdxjs.com) / [Contentlayer](https://contentlayer.dev/) (Blog Posts)
+- [MDX](https://mdxjs.com) / [Contentlayer](https://contentlayer.dev/) (Projects Posts)
 - [Prisma](https://www.prisma.io) (ORM)
 
 frontend:
+
 - [Tailwind CSS](https://tailwindcss.com) (Styling)
 - [Radix Primitives](https://www.radix-ui.com/primitives) (Headless UI components)
 - [Radix UI Colors](https://www.radix-ui.com/colors) (Color system)

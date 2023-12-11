@@ -2,8 +2,10 @@ import Image from "next/image";
 import Link from "@/src/app/[locale]/components/ui/Link";
 import ConnectLinks from "@/src/app/[locale]/components/ConnectLinks";
 import avatar from "@/public/avatar.png";
+import {useTranslations} from "next-intl";
 
 export default function Links() {
+    const translate = useTranslations('links');
     return (
         <>
             <div className="flex flex-col gap-16 md:gap-24">
@@ -24,8 +26,7 @@ export default function Links() {
                             Thibault Morizet
                         </h1>
                         <p className="mx-auto max-w-sm text-center text-secondary">
-                            A developer who loves building cool things with code. Find me
-                            elsewhere @thibaultmorizet
+                            {translate('description')}
                         </p>
                     </div>
                 </div>
@@ -42,7 +43,7 @@ export default function Links() {
                             >
                                 <div className="flex items-center gap-3">
                                     <span className="text-xl">{link.icon}</span>
-                                    {link.label}
+                                    {translate(link.label)}
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 20 20"

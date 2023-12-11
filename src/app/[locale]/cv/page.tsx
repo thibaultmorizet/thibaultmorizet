@@ -2,6 +2,7 @@
 import Image from "next/image";
 import avatar from "@/public/avatar.png";
 import CV from "@/public/CV/CV.jpeg";
+import {useMessages} from "next-intl";
 
 export default function Links() {
 
@@ -18,6 +19,8 @@ export default function Links() {
         link.href = url;
         link.click();
     };
+
+    const messages = useMessages();
 
     return (
         <>
@@ -42,7 +45,8 @@ export default function Links() {
                 </div>
                 <button onClick={saveCV}
                         className={"mx-auto px-4 py-2 rounded-lg text-sm hover:text-primary transition-colors bg-secondaryA text-primary animate-in w-fit"
-                        }>Download CV
+                        }>
+                    {messages.cv.downloadCV}
                 </button>
                 <Image
                     src={CV}

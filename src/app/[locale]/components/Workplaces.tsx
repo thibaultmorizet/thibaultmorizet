@@ -1,9 +1,9 @@
 "use client";
 import Image, {StaticImageData} from "next/image";
 import {useTheme} from "next-themes";
-import clsx from "clsx";
 
 import Link from "@/src/app/[locale]/components/ui/Link";
+import {useMessages} from "next-intl";
 
 type Workplace = {
     title: string;
@@ -15,6 +15,7 @@ type Workplace = {
 
 function Workplace({title, company, imageSrc, time, link}: Workplace) {
     const {theme} = useTheme();
+    const messages = useMessages();
 
     const content = (
         <>
@@ -24,13 +25,10 @@ function Workplace({title, company, imageSrc, time, link}: Workplace) {
                     alt={company}
                     width={48}
                     height={48}
-                    className={clsx(
-                        "rounded-full",
-                        company === "University of Houston" && "bg-neutral-50"
-                    )}
+                    className={"rounded-full"}
                 />
                 <div className="flex flex-col gap-px">
-                    <p className={link ? "external-arrow" : ""}>{title}</p>
+                    <p className={link ? "external-arrow" : ""}>{messages.works?.[title]}</p>
                     <p className="text-secondary">{company}</p>
                 </div>
             </div>

@@ -5,18 +5,29 @@
     "moreConnect": "More ways to connect",
     "about": "About",
     "connect": "Connect",
-    "work": "Work"
+    "work": "Work",
+    "contact": "Contact",
+    "tags": "Tags"
   },
   "navigation": {
     "home": "Home",
     "projects": "Projects",
     "CV": "CV"
   },
+  "cv": {
+    "downloadCV": "Download CV"
+  },
   "404": {
     "pageNotFound": "404 - Page not found",
     "messageStart": "Uh oh! This page does not exist",
     "messageEnd": ", maybe you clicked an old link or misspelled. Please try again...",
     "returnHome": "Return home"
+  },
+  "links": {
+    "description": "A developer who loves building cool things with code. Find me elsewhere @thibaultmorizet",
+    "email": "Email ( General )",
+    "github": "GitHub",
+    "linkedIn": "LinkedIn"
   },
   "home": {
     "description": "I write code.",
@@ -34,6 +45,30 @@
       "title": "years of professional development experience.",
       "descriptionStart": "I started my career at a small companies. Then I went to a bigger company. Now I'm a React Native Developer currently working at",
       "descriptionEnd": ", one of the largest gaming company in France."
+    }
+  },
+  "works": {
+    "ankama": "React Native Developer",
+    "glanum": "Web & applications programmer",
+    "peopleIn": "Web Developer"
+  },
+  "themes": {
+    "light": "Light",
+    "dark": "Dark",
+    "terminal": "Terminal",
+    "system": "Automatic"
+  },
+  "projects": {
+    "description": "Here are some of the projects I've worked on.",
+    "visitProject": "Visit Project",
+    "contactStart": "Need more project details, or interested in working together ? Reach out to me directly at",
+    "contactEnd": ". I'd be happy to connect !",
+    "allProjects": "All Projects",
+    "L2I": {
+      "description": "A book sales platform.",
+      "firstImageDescription": "Home page with best seller carousel.",
+      "secondImageDescription": "Shop page of application, including different filter and sort components.",
+      "thirdImageDescription": "Book details page, with title, summary, price and general info."
     }
   }
 }
