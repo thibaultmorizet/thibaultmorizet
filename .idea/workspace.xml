@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="update translation">
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/components/LanguageSwitcher.tsx" afterDir="false" />
+    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="add translation switcher">
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/[...rest]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/src/app/[locale]/components",
+    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/src/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/app/[locale]/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/messages" />
       <recent name="$PROJECT_DIR$/app/pdf" />
-      <recent name="$PROJECT_DIR$/public/CV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/[locale]" />
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702326976009</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add translation switcher">
+      <created>1702328005257</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702328005257</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +316,8 @@
     <MESSAGE value="add translations" />
     <MESSAGE value="fix translations" />
     <MESSAGE value="update translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="update translation" />
+    <MESSAGE value="add translation switcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="add translation switcher" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
