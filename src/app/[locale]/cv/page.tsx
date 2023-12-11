@@ -21,6 +21,7 @@ export default function Links() {
     };
 
     const messages = useMessages();
+    const cv = messages.cv as any
 
     return (
         <>
@@ -46,7 +47,7 @@ export default function Links() {
                 <button onClick={saveCV}
                         className={"mx-auto px-4 py-2 rounded-lg text-sm hover:text-primary transition-colors bg-secondaryA text-primary animate-in w-fit"
                         }>
-                    {messages.cv.downloadCV}
+                    {cv.downloadCV}
                 </button>
                 <Image
                     src={CV}

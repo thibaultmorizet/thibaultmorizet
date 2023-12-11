@@ -16,6 +16,7 @@ type Workplace = {
 function Workplace({title, company, imageSrc, time, link}: Workplace) {
     const {theme} = useTheme();
     const messages = useMessages();
+    const works = messages.works as any
 
     const content = (
         <>
@@ -28,7 +29,7 @@ function Workplace({title, company, imageSrc, time, link}: Workplace) {
                     className={"rounded-full"}
                 />
                 <div className="flex flex-col gap-px">
-                    <p className={link ? "external-arrow" : ""}>{messages.works?.[title]}</p>
+                    <p className={link ? "external-arrow" : ""}>{works?.[title]}</p>
                     <p className="text-secondary">{company}</p>
                 </div>
             </div>

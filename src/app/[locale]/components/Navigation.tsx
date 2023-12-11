@@ -25,6 +25,7 @@ export default function Navigation() {
     const iconClassName =
         "w-5 h-5 text-secondary hover:text-primary cursor-pointer transition-colors text-primary";
     const messages = useMessages();
+    const navigation = messages.navigation as any
 
     return (
         <header className={clsx("relative top-0 z-20 bg-primary md:sticky")}>
@@ -35,7 +36,7 @@ export default function Navigation() {
                 <ul className="hidden items-center gap-1 md:flex">
                     {links.map((link) => (
                         <li key={link.href}>
-                            <NavLink href={link.href}>{messages.navigation?.[link.label]}</NavLink>
+                            <NavLink href={link.href}>{navigation?.[link.label]}</NavLink>
                         </li>
                     ))}
                 </ul>

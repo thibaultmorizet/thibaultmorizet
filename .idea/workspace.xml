@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="remove useless code">
+    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="add translations">
+      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/project/L2I.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/project/L2I.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/ConnectLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ConnectLinks.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/ThemeSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Workplaces.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Workplaces.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/cv/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/cv/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/links/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/links/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/projects/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/components/ui/Image.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702288953566</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add translations">
+      <created>1702324741744</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702324741744</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +290,8 @@
     <MESSAGE value="rename cv pdf" />
     <MESSAGE value="download CV on new tab" />
     <MESSAGE value="remove useless code" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove useless code" />
+    <MESSAGE value="add translations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add translations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
