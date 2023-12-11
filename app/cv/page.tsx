@@ -15,6 +15,8 @@ export default function Links() {
         const link = document.createElement('a');
         link.download = 'CV_THIBAULT_MORIZET.pdf';
         link.href = url;
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
         link.click();
     };
 
@@ -40,7 +42,6 @@ export default function Links() {
                     </div>
                 </div>
                 <button onClick={saveCV}>Download CV</button>
-
                 <Image
                     src={CV}
                     width={600}
