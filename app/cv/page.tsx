@@ -41,7 +41,10 @@ export default function Links() {
                         </h1>
                     </div>
                 </div>
-                <button onClick={saveCV}>Download CV</button>
+                <button onClick={saveCV}
+                        className={"mx-auto px-4 py-2 rounded-lg text-sm hover:text-primary transition-colors bg-secondaryA text-primary animate-in w-fit"
+                        }>Download CV
+                </button>
                 <Image
                     src={CV}
                     width={600}
