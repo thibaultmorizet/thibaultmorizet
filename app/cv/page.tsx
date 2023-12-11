@@ -4,19 +4,20 @@ import avatar from "public/avatar.png";
 import CV from "public/CV/CV.jpeg";
 
 export default function Links() {
-    document.querySelector('a')?.addEventListener('click', function (ev) {
-        ev.preventDefault();
-        ev.stopPropagation();
-        var href = document.querySelector('a')?.href;
-        if (href) {
-            document.location.href = href
-        }
-    })
+
     const saveCV = async () => {
         const res = await fetch("/CV/CV_THIBAULT_MORIZET.pdf", {
             method: "get",
             mode: "no-cors",
             referrerPolicy: "no-referrer"
+        })
+        document.querySelector('a')?.addEventListener('click', function (ev) {
+            ev.preventDefault();
+            ev.stopPropagation();
+            var href = document.querySelector('a')?.href;
+            if (href) {
+                document.location.href = href
+            }
         })
         const blob = await res.blob()
         const url = URL.createObjectURL(blob);
