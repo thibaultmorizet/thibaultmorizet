@@ -11,21 +11,11 @@ export default function Links() {
             mode: "no-cors",
             referrerPolicy: "no-referrer"
         })
-        document.querySelector('a')?.addEventListener('click', function (ev) {
-            ev.preventDefault();
-            ev.stopPropagation();
-            var href = document.querySelector('a')?.href;
-            if (href) {
-                document.location.href = href
-            }
-        })
         const blob = await res.blob()
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.download = 'CV_THIBAULT_MORIZET.pdf';
         link.href = url;
-        link.target = '_blank'
-        link.rel = 'noopener noreferrer'
         link.click();
     };
 
