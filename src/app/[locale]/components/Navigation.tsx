@@ -10,6 +10,7 @@ import {Popover, Transition} from "@headlessui/react";
 import clsx from "clsx";
 import {HomeIcon} from "@heroicons/react/20/solid";
 import {useMessages} from "next-intl";
+import LanguageSwitcher from "@/src/app/[locale]/components/LanguageSwitcher";
 
 
 const links = [
@@ -89,6 +90,7 @@ export default function Navigation() {
                 </Popover>
 
                 <div className="flex h-8 w-8 items-center justify-center">
+                    <LanguageSwitcher/>
                     <ThemeSwitcher/>
                 </div>
             </nav>

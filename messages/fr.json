@@ -58,6 +58,10 @@
     "terminal": "Terminal",
     "system": "Automatique"
   },
+  "languages": {
+    "en": "Anglais",
+    "fr": "Français"
+  },
   "projects": {
     "description": "Voici quelques-uns des projets sur lesquels j'ai travaillé.",
     "visitProject": "Visiter le projet",

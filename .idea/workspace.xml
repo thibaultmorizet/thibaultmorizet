@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="add translations">
-      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+    <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="update translation">
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/components/LanguageSwitcher.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/components/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +68,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/tmorizet/Desktop/thibaultmorizet.github.io/src",
+    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/src/app/[locale]/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/[locale]/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/messages" />
       <recent name="$PROJECT_DIR$/app/pdf" />
       <recent name="$PROJECT_DIR$/public/CV" />
-      <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/[locale]" />
@@ -260,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702324741744</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix translations">
+      <created>1702326801436</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702326801436</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update translation">
+      <created>1702326976009</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702326976009</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +307,9 @@
     <MESSAGE value="download CV on new tab" />
     <MESSAGE value="remove useless code" />
     <MESSAGE value="add translations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add translations" />
+    <MESSAGE value="fix translations" />
+    <MESSAGE value="update translation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update translation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
