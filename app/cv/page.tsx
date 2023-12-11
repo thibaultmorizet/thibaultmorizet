@@ -15,8 +15,8 @@ export default function Links() {
         const link = document.createElement('a');
         link.download = 'CV_THIBAULT_MORIZET.pdf';
         link.href = url;
-        link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer');
+        link.target = '_blank'
+        link.rel = 'noopener noreferrer'
         link.click();
     };
 
