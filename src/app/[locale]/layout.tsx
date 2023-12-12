@@ -10,6 +10,7 @@ import {notFound} from 'next/navigation';
 import React from "react";
 import {locales} from "@/src/navigation";
 import {NextIntlClientProvider, useMessages} from 'next-intl';
+import {SpeedInsights} from "@vercel/speed-insights/next"
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -43,6 +44,7 @@ export default function LocaleLayout({children, params: {locale}}: { children: R
                 </div>
             </ThemeProvider>
             <Analytics/>
+            <SpeedInsights/>
             </body>
         </NextIntlClientProvider>
         </html>
