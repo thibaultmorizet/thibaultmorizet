@@ -62,7 +62,7 @@ export default function Projects() {
                                         href={`/projects/${project.slug}`}
                                         className="font-medium text-primary hover:underline"
                                     >
-                                        {project.title}
+                                        {projectsTranslate(project.title + "." + project.title)}
                                     </Link>
                                     <time className="text-secondary"> · {project.time}</time>
                                 </div>

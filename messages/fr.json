@@ -69,10 +69,19 @@
     "contactEnd": ". Je serais heureux d'échanger avec vous !",
     "allProjects": "Tous les projets",
     "L2I": {
+      "L2I": "L2I",
       "description": "Une platforme de vente de livres.",
       "firstImageDescription": "Page d'accueil avec carrousel des meilleures ventes.",
       "secondImageDescription": "Page boutique de l'application, comprenant différents composants de filtrage et de tri.",
       "thirdImageDescription": "Page de détails du livre, avec titre, résumé, prix et informations générales."
+    },
+    "portfolio": {
+      "portfolio": "Portfolio",
+      "description": "Mon site Web de portfolio personnel conçu pour être simpliste, une bascule en mode sombre, une page à propos, une page de projet et mon CV.",
+      "desktopLightDescription": "Page d'accueil desktop du Portfolio en mode clair.",
+      "desktopTerminalDescription": "Page d'accueil desktop du Portfolio en mode terminal.",
+      "mobileLightDescription": "Page d'accueil mobile du Portfolio en mode clair.",
+      "mobileTerminalDescription": "Page d'accueil mobile du Portfolio en mode terminal."
     }
   }
 }

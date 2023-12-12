@@ -69,10 +69,20 @@
     "contactEnd": ". I'd be happy to connect !",
     "allProjects": "All Projects",
     "L2I": {
+      "L2I": "L2I",
       "description": "A book sales platform.",
       "firstImageDescription": "Home page with best seller carousel.",
       "secondImageDescription": "Shop page of application, including different filter and sort components.",
       "thirdImageDescription": "Book details page, with title, summary, price and general info."
+    },
+    "portfolio": {
+      "portfolio": "Portfolio",
+      "description": "My personal portfolio website designed to be simplistic, a dark mode toggle, an about page, a project page, and my CV.",
+      "desktopLightDescription": "Portfolio desktop homepage in light mode.",
+      "desktopTerminalDescription": "Portfolio desktop homepage in terminal mode.",
+      "mobileLightDescription": "Portfolio mobile homepage in light mode.",
+      "mobileTerminalDescription": "Portfolio mobile homepage in terminal mode."
     }
+
   }
 }
