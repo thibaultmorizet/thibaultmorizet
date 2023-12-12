@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17093031-b9e0-418f-8da5-a0574dfbf83b" name="Changes" comment="add translation switcher">
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/[...rest]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo/android-chrome-256x256.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo/site.webmanifest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/src/app",
+    "last_opened_file_path": "/Users/tmorizet/Desktop/thibaultmorizet.github.io/public/logo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -78,24 +80,24 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/prettier",
     "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/thibaultmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/tmorizet/Desktop/thibaultmorizet.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/logo" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/app/[locale]/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/messages" />
-      <recent name="$PROJECT_DIR$/app/pdf" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/logo" />
       <recent name="$PROJECT_DIR$/src/app/[locale]" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/app/components" />
     </key>
   </component>
   <component name="RunManager">
