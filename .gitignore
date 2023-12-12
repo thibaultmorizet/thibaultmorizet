@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/.idea
+
 
 # testing
 /coverage
@@ -39,6 +39,7 @@ next-env.d.ts
 .contentlayer/
 
 .vscode/
+.idea/
 
 generated/
 generated
