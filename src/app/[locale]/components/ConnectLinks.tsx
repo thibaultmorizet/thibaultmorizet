@@ -9,7 +9,7 @@ interface ConnectLink {
 const ConnectLinks: ConnectLink[] = [
     {
         label: "email",
-        href: "mailto:thibaultmorizet@icloud.com",
+        href: "mailto:tmorizet@icloud.com",
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"

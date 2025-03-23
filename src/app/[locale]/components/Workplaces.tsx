@@ -4,20 +4,33 @@ import {useTheme} from "next-themes";
 
 import Link from "@/src/app/[locale]/components/ui/Link";
 import {useMessages} from "next-intl";
+import {useTranslations} from 'next-intl';
 
 type Workplace = {
     title: string;
     company: string;
     imageSrc: string | StaticImageData;
-    time?: string;
+    timeStart: string;
+    timeEnd?: string;
     link?: string;
 };
 
-function Workplace({title, company, imageSrc, time, link}: Workplace) {
+function Workplace({title, company, imageSrc, timeStart, timeEnd, link}: Workplace) {
     const {theme} = useTheme();
     const messages = useMessages();
+    const translate = useTranslations();
+
     const works = messages.works as any
 
+    const timeStartDate = new Date(timeStart);
+    const timeEndDate = timeEnd ? new Date(timeEnd) : null;
+    const formatter = new Intl.DateTimeFormat("en-US", { month: '2-digit', year: 'numeric' });
+    
+    const timeStartFormatted = formatter.format(timeStartDate);
+    const timeEndFormatted = timeEndDate ? formatter.format(timeEndDate) : translate("works.present");
+    
+    const time = `${timeStartFormatted} - ${timeEndFormatted}`;
+    
     const content = (
         <>
             <div className="flex items-center gap-4">
@@ -33,7 +46,7 @@ function Workplace({title, company, imageSrc, time, link}: Workplace) {
                     <p className="text-secondary">{company}</p>
                 </div>
             </div>
-            {time && <time className="text-secondary">{time}</time>}
+            {timeStart && <time className="text-secondary">{time}</time>}
         </>
     );
     return (
@@ -41,7 +54,7 @@ function Workplace({title, company, imageSrc, time, link}: Workplace) {
             {link ? (
                 <Link
                     href={link}
-                    className="flex justify-between w-full px-3 py-2 -mx-3 -my-2 no-underline"
+                    className="flex justify-between w-full py-2 no-underline"
                 >
                     {content}
                 </Link>

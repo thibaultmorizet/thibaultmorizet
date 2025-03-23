@@ -1,27 +1,27 @@
 {
   "general": {
-    "emailMe": "email me",
-    "contactMe": "email me",
-    "moreConnect": "More ways to connect",
+    "emailMe": "contact me",
+    "contactMe": "get in touch",
+    "moreConnect": "More ways to reach me",
     "about": "About",
-    "connect": "Connect",
-    "work": "Work",
+    "connect": "Contact me",
+    "work": "Experience",
     "contact": "Contact",
     "tags": "Tags"
   },
   "navigation": {
     "home": "Home",
     "projects": "Projects",
-    "CV": "CV"
+    "CV": "Resume"
   },
   "cv": {
-    "downloadCV": "Download CV"
+    "downloadCV": "Download Resume"
   },
   "404": {
     "pageNotFound": "404 - Page not found",
-    "messageStart": "Uh oh! This page does not exist",
-    "messageEnd": ", maybe you clicked an old link or misspelled. Please try again...",
-    "returnHome": "Return home"
+    "messageStart": "Oops! This page doesn't exist",
+    "messageEnd": ", maybe you clicked an old link or made a typo. Please try again...",
+    "returnHome": "Return to home"
   },
   "links": {
     "description": "A developer who loves building cool things with code. Find me elsewhere @thibaultmorizet",
@@ -30,27 +30,27 @@
     "linkedIn": "LinkedIn"
   },
   "home": {
-    "description": "I write code.",
+    "description": "Fullstack JavaScript Developer",
     "presentation": "Hi, I'm Thibault Morizet, a developer who loves building cool things with code.",
     "about": {
-      "first": "Hello world, I'm Thibault Morizet !",
-      "second": "I have a passion for web design and back-end development, so am always looking for ways to incorporate it into my life.",
-      "third": "When I'm not at my desk I am probably lifting weights, boxing, or reading :)"
+      "first": "Passionate about software architecture and web development, I enjoy designing efficient and elegant solutions. My expertise spans both front-end and back-end, with a strong focus on modern technologies and dynamic environments.",
+      "second": "Outside of coding, I invest time in sports and continuously nurture my curiosity through reading and learning."
     },
     "connect": {
-      "haveAQuestion": "Have a question or just want to chat ? Feel free to",
-      "tryFinding": "Try finding me anywhere else at @thibaultmorizet"
+      "haveAQuestion": "I'm always open to discussions, collaborations, and new opportunities. Feel free to",
+      "tryFinding": "Try finding me elsewhere with @thibaultmorizet"
     },
     "work": {
-      "title": "years of professional development experience.",
-      "descriptionStart": "I started my career at a small companies. Then I went to a bigger company. Now I'm a React Native Developer currently working at",
-      "descriptionEnd": ", one of the largest gaming company in France."
+      "title": "years of experience in development",
+      "description": "My journey has taken me from agile startups to established companies, where I had the opportunity to work on large-scale projects."
     }
   },
   "works": {
+    "snb": "Fullstack JavaScript Developer",
     "ankama": "React Native Developer",
-    "glanum": "Web & applications programmer",
-    "peopleIn": "Web Developer"
+    "glanum": "Web & App Developer",
+    "peopleIn": "Web Developer",
+    "present": "Present"
   },
   "themes": {
     "light": "Light",
@@ -64,25 +64,24 @@
   },
   "projects": {
     "description": "Here are some of the projects I've worked on.",
-    "visitProject": "Visit Project",
-    "contactStart": "Need more project details, or interested in working together ? Reach out to me directly at",
-    "contactEnd": ". I'd be happy to connect !",
-    "allProjects": "All Projects",
+    "visitProject": "Visit project",
+    "contactStart": "Need more details about the project or interested in working together? Contact me directly via ",
+    "contactEnd": ". I'd be happy to chat with you!",
+    "allProjects": "All projects",
     "L2I": {
       "L2I": "L2I",
-      "description": "A book sales platform.",
-      "firstImageDescription": "Home page with best seller carousel.",
-      "secondImageDescription": "Shop page of application, including different filter and sort components.",
-      "thirdImageDescription": "Book details page, with title, summary, price and general info."
+      "description": "A book-selling platform.",
+      "firstImageDescription": "Homepage with a carousel of best-selling books.",
+      "secondImageDescription": "Shop page with various filtering and sorting components.",
+      "thirdImageDescription": "Book details page, including title, summary, price, and general information."
     },
     "portfolio": {
       "portfolio": "Portfolio",
-      "description": "My personal portfolio website designed to be simplistic, a dark mode toggle, an about page, a project page, and my CV.",
-      "desktopLightDescription": "Portfolio desktop homepage in light mode.",
-      "desktopTerminalDescription": "Portfolio desktop homepage in terminal mode.",
-      "mobileLightDescription": "Portfolio mobile homepage in light mode.",
-      "mobileTerminalDescription": "Portfolio mobile homepage in terminal mode."
+      "description": "My personal portfolio website designed to be minimalist, featuring a dark mode toggle, an about page, a projects page, and my resume.",
+      "desktopLightDescription": "Portfolio homepage in light mode (desktop view).",
+      "desktopTerminalDescription": "Portfolio homepage in terminal mode (desktop view).",
+      "mobileLightDescription": "Portfolio homepage in light mode (mobile view).",
+      "mobileTerminalDescription": "Portfolio homepage in terminal mode (mobile view)."
     }
-
   }
 }

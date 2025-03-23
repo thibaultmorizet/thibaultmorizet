@@ -30,27 +30,27 @@
     "linkedIn": "LinkedIn"
   },
   "home": {
-    "description": "J'écris du code.",
+    "description": "Développeur Fullstack JavaScript",
     "presentation": "Bonjour, Je suis Thibault Morizet, un développeur qui aime construire des choses sympas avec du code.",
     "about": {
-      "first": "Hello world, Je suis Thibault Morizet !",
-      "second": "J'ai une passion pour la conception Web et le développement back-end, je cherche donc toujours des moyens de l'intégrer dans ma vie.",
-      "third": "Quand je ne suis pas à mon bureau, je suis probablement en train de soulever des poids, de faire de la boxe ou de lire :)"
+      "first": "Passionné par l’architecture logicielle et le développement web, j’aime concevoir des solutions performantes et élégantes. Mon expertise couvre aussi bien le front-end que le back-end, avec un fort attrait pour les technologies modernes et les environnements dynamiques.",
+      "second": "En dehors du code, je m’investis dans le sport et je nourris ma curiosité à travers la lecture et l’apprentissage continu."
     },
     "connect": {
-      "haveAQuestion": "Une question ou simplement envie de discuter ? Ne hésitez pas à",
+      "haveAQuestion": "Je suis toujours ouvert aux discussions, collaborations et nouvelles opportunités. N'hésitez pas à",
       "tryFinding": "Essayez de me trouver ailleurs avec @thibaultmorizet"
     },
     "work": {
-      "title": "années d'expérience en développement.",
-      "descriptionStart": "J'ai commencé ma carrière dans une petite entreprise. Ensuite, je suis allé dans une plus grande entreprise. Maintenant, je suis un développeur React Native et je travaille actuellement chez",
-      "descriptionEnd": ", l'une des plus grandes sociétés de jeux vidéos en France."
+      "title": "ans d’expérience en développement",
+      "description": "Mon parcours m’a conduit des petites structures agiles aux entreprises établies, où j’ai eu l’opportunité de travailler sur des projets d’envergure."
     }
   },
   "works": {
+    "snb": "Développeur Fullstack JavaScript",
     "ankama": "Développeur React Native",
     "glanum": "Programmeur web & applications",
-    "peopleIn": "Développeur Web"
+    "peopleIn": "Développeur Web",
+    "present": "Aujourd'hui"
   },
   "themes": {
     "light": "Clair",

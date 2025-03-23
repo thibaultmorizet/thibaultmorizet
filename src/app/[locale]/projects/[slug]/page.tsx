@@ -75,10 +75,10 @@ export default function Project({params}: { params: any }) {
                     <p className="max-w-lg text-secondary">
                         {translate('contactStart') + " "}
                         <a
-                            href="mailto:thibaultmorizet@icloud.com"
+                            href="mailto:tmorizet@icloud.com"
                             className="text-primary underline"
                         >
-                            thibaultmorizet@icloud.com
+                            tmorizet@icloud.com
                         </a>
                         {translate('contactEnd')}
                     </p>

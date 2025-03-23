@@ -7,6 +7,7 @@ import ConnectLinks from "@/src/app/[locale]/components/ConnectLinks";
 import Workplaces from "@/src/app/[locale]/components/Workplaces";
 import ankamaLogo from "@/public/work/ankama-logo.png";
 import glanumLogo from "@/public/work/glanum-logo.png";
+import snbLogo from "@/public/work/snb-logo.png";
 import peopleInLogo from "@/public/work/people-in-logo.png";
 import {useTranslations} from 'next-intl';
 import {firstLetterUppercase} from "@/lib/utils";
@@ -54,7 +55,7 @@ export default function Home() {
                         >
                             <li className="transition-opacity">
                                 <Link
-                                    href="mailto:thibaultmorizet@icloud.com"
+                                    href="mailto:tmorizet@icloud.com"
                                     className="flex items-center gap-2 no-underline"
                                 >
                                     <ArrowUpRightIcon className="h-5 w-5"/>
@@ -87,7 +88,6 @@ export default function Home() {
                         <div className="flex flex-col gap-6">
                             <p>{translate('about.first')}</p>
                             <p>{translate('about.second')}</p>
-                            <p>{translate('about.third')}</p>
                         </div>
                     </Section>
 
@@ -95,7 +95,7 @@ export default function Home() {
                         <div className="flex w-full flex-col gap-8">
                             <p>
                                 {translate("connect.haveAQuestion") + " "}
-                                <Link href="mailto:thibaultmorizet@icloud.com">{generalTranslate('contactMe')}</Link>.
+                                <Link href="mailto:tmorizet@icloud.com">{generalTranslate('contactMe')}</Link>.
                                 {" " + translate("connect.tryFinding")}
                             </p>
                             <ul className="animated-list grid flex-grow grid-cols-1 gap-2 md:grid-cols-2">
@@ -134,14 +134,10 @@ export default function Home() {
                     <Section heading={generalTranslate('work')} headingAlignment="left">
                         <div className="flex w-full flex-col gap-8">
                             <p>
-                                {new Date().getFullYear() - 2020} {" " + translate("work.title")}
+                                {new Date().getFullYear() - 2021} {" " + translate("work.title")}
                             </p>
                             <p>
-                                {translate("work.descriptionStart") + " "}
-                                <Link className="underline" href="https://www.ankama.com">
-                                    Ankama
-                                </Link>
-                                {translate("work.descriptionEnd")}
+                                {translate("work.description")}
                             </p>
                             <Workplaces items={workplaces}/>
                         </div>
@@ -154,23 +150,34 @@ export default function Home() {
 
 const workplaces = [
     {
+        title: "snb",
+        company: "Studio no Border (Ankama)",
+        timeStart: "2024-10-01",
+        timeEnd: "",
+        imageSrc: snbLogo,
+        link: "https://www.studio-no-border.com/en/",
+    },
+    {
         title: "ankama",
-        company: "Ankama",
-        time: "2023 -",
+        company: "Ankama",        
+        timeStart: "2023-08-01",
+        timeEnd: "2024-09-30",
         imageSrc: ankamaLogo,
         link: "https://www.ankama.com",
     },
     {
         title: "glanum",
         company: "Glanum",
-        time: "2023 - 2023",
+        timeStart: "2023-01-01",
+        timeEnd: "2023-07-31",
         imageSrc: glanumLogo,
         link: "https://www.glanum.com",
     },
     {
         title: "peopleIn",
         company: "People In",
-        time: "2021 - 2022",
+        timeStart: "2021-09-01",
+        timeEnd: "2022-12-31",
         imageSrc: peopleInLogo,
         link: "https://www.people-in.fr",
     },
